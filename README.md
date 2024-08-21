@@ -10,3 +10,9 @@ El programa esta escrito en Python 3 y  se ejecuta en un ambiente virtual de est
 
 Una vez activado el sockect de MPV, ya es posible poner en ejecución el programa de python .py con el codigo desarrollado.
 
+*** Por motivos de Espacio y de restricción en la nube de GITHUB, no se pudieron subir varios archivos. Estos se pueden conseguir en la pagina de descarga del modelo usado para la detección de genero y rango de edad.
+1. Debe construirse un archivo de video con pantalla negra y el nombre debe ser: Video_pantalla_Negra.mp4
+2. en la ruta assets, deben ubicarse tambien los modelos:
+   age_net.caffemodel
+   gender_net.caffemodel
+   opencv_face_detector_uint8.pb
